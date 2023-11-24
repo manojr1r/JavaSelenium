@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-20T19:37:09 IST" name="Bank" finished-at="2023-11-20T19:37:10 IST" duration-ms="832">
+    <groups>
+      <group name="smoke">
+        <method signature="HomeLoan.newHouseLoan(java.lang.String,java.lang.String)[pri:0, instance:JavaSelenium.testNG.HomeLoan@618b19ad]" name="newHouseLoan" class="JavaSelenium.testNG.HomeLoan"/>
+        <method signature="PersonalLoan.apiUnSecuredLoan()[pri:0, instance:JavaSelenium.testNG.PersonalLoan@1bd4fdd]" name="apiUnSecuredLoan" class="JavaSelenium.testNG.PersonalLoan"/>
+        <method signature="CreditCard.Rupay(java.lang.String)[pri:0, instance:JavaSelenium.testNg2.CreditCard@7eac9008]" name="Rupay" class="JavaSelenium.testNg2.CreditCard"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="HomeLoan.newHouseLoan(java.lang.String,java.lang.String)[pri:0, instance:JavaSelenium.testNG.HomeLoan@618b19ad]" name="newHouseLoan" class="JavaSelenium.testNG.HomeLoan"/>
+        <method signature="PersonalLoan.apiUnSecuredLoan()[pri:0, instance:JavaSelenium.testNG.PersonalLoan@1bd4fdd]" name="apiUnSecuredLoan" class="JavaSelenium.testNG.PersonalLoan"/>
+        <method signature="CreditCard.Rupay(java.lang.String)[pri:0, instance:JavaSelenium.testNg2.CreditCard@7eac9008]" name="Rupay" class="JavaSelenium.testNg2.CreditCard"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-11-20T19:37:09 IST" name="CreditCardDept" finished-at="2023-11-20T19:37:10 IST" duration-ms="304">
+      <class name="JavaSelenium.testNg2.CreditCard">
+        <test-method signature="Rupay(java.lang.String)[pri:0, instance:JavaSelenium.testNg2.CreditCard@7eac9008]" started-at="2023-11-20T19:37:09 IST" name="Rupay" finished-at="2023-11-20T19:37:10 IST" duration-ms="73" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[creditCard'dot'com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Rupay -->
+        <test-method signature="Visa()[pri:0, instance:JavaSelenium.testNg2.CreditCard@7eac9008]" started-at="2023-11-20T19:37:10 IST" name="Visa" finished-at="2023-11-20T19:37:10 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Visa -->
+      </class> <!-- JavaSelenium.testNg2.CreditCard -->
+      <class name="JavaSelenium.testNG.CarLoan">
+        <test-method is-config="true" signature="newCarLoan()[pri:0, instance:JavaSelenium.testNG.CarLoan@74235045]" started-at="2023-11-20T19:37:09 IST" name="newCarLoan" finished-at="2023-11-20T19:37:09 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newCarLoan -->
+      </class> <!-- JavaSelenium.testNG.CarLoan -->
+    </test> <!-- CreditCardDept -->
+    <test started-at="2023-11-20T19:37:09 IST" name="LoansDept" finished-at="2023-11-20T19:37:10 IST" duration-ms="832">
+      <class name="JavaSelenium.testNG.PersonalLoan">
+        <test-method signature="apiUnSecuredLoan()[pri:0, instance:JavaSelenium.testNG.PersonalLoan@1bd4fdd]" started-at="2023-11-20T19:37:09 IST" name="apiUnSecuredLoan" finished-at="2023-11-20T19:37:10 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiUnSecuredLoan -->
+        <test-method signature="mortageLoan()[pri:0, instance:JavaSelenium.testNG.PersonalLoan@1bd4fdd]" started-at="2023-11-20T19:37:10 IST" name="mortageLoan" finished-at="2023-11-20T19:37:10 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mortageLoan -->
+        <test-method signature="abA(java.lang.String,java.lang.String)[pri:0, instance:JavaSelenium.testNG.PersonalLoan@1bd4fdd]" started-at="2023-11-20T19:37:10 IST" name="abA" finished-at="2023-11-20T19:37:10 IST" duration-ms="240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ClassLevelParameter personalLoan'dot'com ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ Manoj]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abA -->
+        <test-method signature="apiCibilCheck()[pri:0, instance:JavaSelenium.testNG.PersonalLoan@1bd4fdd]" started-at="2023-11-20T19:37:10 IST" name="apiCibilCheck" finished-at="2023-11-20T19:37:10 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiCibilCheck -->
+        <test-method signature="unSecuredLoan()[pri:0, instance:JavaSelenium.testNG.PersonalLoan@1bd4fdd]" started-at="2023-11-20T19:37:10 IST" name="unSecuredLoan" finished-at="2023-11-20T19:37:10 IST" depends-on-methods="JavaSelenium.testNG.PersonalLoan.mortageLoan, JavaSelenium.testNG.PersonalLoan.cibilCheck" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unSecuredLoan -->
+      </class> <!-- JavaSelenium.testNG.PersonalLoan -->
+      <class name="JavaSelenium.testNG.HomeLoan">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:JavaSelenium.testNG.HomeLoan@618b19ad]" started-at="2023-11-20T19:37:10 IST" name="setUp" finished-at="2023-11-20T19:37:10 IST" duration-ms="106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ SuiteLevelParameter Loan'dot'com ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="newHouseLoan(java.lang.String,java.lang.String)[pri:0, instance:JavaSelenium.testNG.HomeLoan@618b19ad]" started-at="2023-11-20T19:37:10 IST" name="newHouseLoan" data-provider="method2" finished-at="2023-11-20T19:37:10 IST" duration-ms="54" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newHouseLoan -->
+        <test-method signature="newHouseLoan(java.lang.String,java.lang.String)[pri:0, instance:JavaSelenium.testNG.HomeLoan@618b19ad]" started-at="2023-11-20T19:37:10 IST" name="newHouseLoan" data-provider="method2" finished-at="2023-11-20T19:37:10 IST" duration-ms="50" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newHouseLoan -->
+      </class> <!-- JavaSelenium.testNG.HomeLoan -->
+      <class name="JavaSelenium.testNG.CarLoan">
+        <test-method is-config="true" signature="newCarLoan()[pri:0, instance:JavaSelenium.testNG.CarLoan@74235045]" started-at="2023-11-20T19:37:09 IST" name="newCarLoan" finished-at="2023-11-20T19:37:09 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newCarLoan -->
+        <test-method is-config="true" signature="newCarLoan()[pri:0, instance:JavaSelenium.testNG.CarLoan@74235045]" started-at="2023-11-20T19:37:09 IST" name="newCarLoan" finished-at="2023-11-20T19:37:09 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newCarLoan -->
+        <test-method is-config="true" signature="newCarLoan()[pri:0, instance:JavaSelenium.testNG.CarLoan@74235045]" started-at="2023-11-20T19:37:09 IST" name="newCarLoan" finished-at="2023-11-20T19:37:09 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newCarLoan -->
+        <test-method signature="aAA()[pri:0, instance:JavaSelenium.testNG.CarLoan@74235045]" started-at="2023-11-20T19:37:09 IST" name="aAA" finished-at="2023-11-20T19:37:10 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aAA -->
+        <test-method is-config="true" signature="newCarLoan()[pri:0, instance:JavaSelenium.testNG.CarLoan@74235045]" started-at="2023-11-20T19:37:10 IST" name="newCarLoan" finished-at="2023-11-20T19:37:10 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newCarLoan -->
+        <test-method signature="usedCarLoan()[pri:0, instance:JavaSelenium.testNG.CarLoan@74235045]" started-at="2023-11-20T19:37:10 IST" name="usedCarLoan" finished-at="2023-11-20T19:37:10 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usedCarLoan -->
+      </class> <!-- JavaSelenium.testNG.CarLoan -->
+    </test> <!-- LoansDept -->
+  </suite> <!-- Bank -->
+</testng-results>

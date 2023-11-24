@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<!-- We have deepdived in this example include controlling methods -->
+<suite name="Bank" parallel="tests" thread-count="2">
+	
+	<!--//** after suite and before test folder in XML--> 
+		<listeners>
+			<listener class-name="JavaSelenium.testNG.Listener"/>
+		</listeners>
+<!-- If this value "parameter" is added on class level class value will be override-->
+	<parameter name="URL" value=" SuiteLevelParameter Loan'dot'com "> </parameter>
+	<parameter name="UserName" value=" Manoj"> </parameter>
+	
+  <test name="LoansDept" parallel="classes" thread-count="2">
+    <classes>
+		
+      <class name="JavaSelenium.testNG.PersonalLoan">
+		  <parameter name="URL" value=" ClassLevelParameter personalLoan'dot'com "></parameter>
+		  <methods>
+<!--Can use "include" & "exclude" for each step like., method, class,test, suite-->
+			  <exclude name="weddingLoan"></exclude>
+	<!-- using regex exp.-->
+			  <!--include name="api.*"></include-->
+		  </methods>
+      </class>    
+      <class name="JavaSelenium.testNG.CarLoan"/>
+      
+      <class name="JavaSelenium.testNG.HomeLoan"/>
+    </classes>
+    </test> 
+    
+  <!--Another test folder -->   
+    <test name="CreditCardDept" >
+		<parameter name="URL" value="creditCard'dot'com"></parameter>
+    <classes>
+      <class name="JavaSelenium.testNg2.CreditCard"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

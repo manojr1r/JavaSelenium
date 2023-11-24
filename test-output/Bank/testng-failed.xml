@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Bank]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value=" SuiteLevelParameter Loan&#039;dot&#039;com "/>
+  <test thread-count="5" name="Personal Loan(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="JavaSelenium.testNG.HomeLoan">
+        <methods>
+          <include name="newHouseLoan"/>
+        </methods>
+      </class> <!-- JavaSelenium.testNG.HomeLoan -->
+    </classes>
+  </test> <!-- Personal Loan(failed) -->
+</suite> <!-- Failed suite [Bank] -->

@@ -1,0 +1,25 @@
+5 groups
+
+1xx - Informational   // will not use
+2xx - Success
+3xx - Redirection     //low level - Rarely use 
+4xx - Client Errors
+5xx - Server Errors
+
+
+2xx - Success
+200 = Ok (Default)  
+201 = Created  (Post)
+202 = Accepted  (Processing in request)
+204 - No Content (Nothing to return, generally used for large bodies)
+
+
+4xx - Client Errors
+400 - Bad request
+401 - Unauthorized (Not entered userName and password)
+403 - Forbidden (I known who are you!! but your not authorized for this)
+404 - Not found 
+
+5xx - Server Errors
+400 will till what was the issue with query if some issue or not good to expose then will use. 
+
