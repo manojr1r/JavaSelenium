@@ -1,4 +1,0 @@
-
-To implement methods of interface (ITestListner)
-	 Right click -> go to source (Alt+Shift+S) -> click on overide/implement methods 
-	-> select the check boxes for the ITest listener 
