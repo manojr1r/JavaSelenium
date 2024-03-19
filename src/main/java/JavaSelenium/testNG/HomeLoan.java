@@ -42,7 +42,7 @@ public class HomeLoan {
 	}
 	
 
-	@Test(dataProvider = "method2" ,groups = {"smoke","sanity"})
+	@Test(dataProvider = "method2" ,priority = -1, groups = {"smoke","sanity"})
 	public void newHouseLoan(String uname, String password) {
 		System.out.println("SuiteURL = "+SuiteURL);
 
