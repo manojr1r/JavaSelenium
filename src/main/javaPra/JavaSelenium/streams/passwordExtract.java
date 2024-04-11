@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 public class passwordExtract {
 	public static void main(String[] args) {
 		String sentence  ="This sentence consists of password am#@1t of it";
-		sentence.split("/'");
+
 		System.out.println(password(sentence));
 		 
 	}

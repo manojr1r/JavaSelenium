@@ -1,4 +1,4 @@
-No. of attributes support finding locators
+No. of attributes support finding Locators  8
 
 ID
 Xpath

@@ -1,4 +1,4 @@
-package navigations;
+package Navigations.DropDown;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -14,8 +14,8 @@ public class StaticDropdowns {
         WebElement StaticDropdownElement = driver.findElement(By.xpath("//div[@id='demo_basic-dropdown']/select"));
 
         Select dropdown = getSelect( StaticDropdownElement);
-        // dropdown tag should be "select"
-        dropdown.getOptions().size();
+        // In Webpage(document), webElement tag should be "select"
+/*size*/        System.out.println( dropdown.getOptions().size());
         dropdown.selectByVisibleText("Two");
         System.out.println(dropdown.getFirstSelectedOption()); //get value of xpath
         System.out.println(dropdown.getFirstSelectedOption().getText());

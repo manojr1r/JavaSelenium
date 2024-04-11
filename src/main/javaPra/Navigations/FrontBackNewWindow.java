@@ -1,4 +1,4 @@
-package navigations;
+package Navigations;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

@@ -1,4 +1,4 @@
-package locators;
+package Locators;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -20,6 +20,7 @@ public class Css {
     with tagname traverse
         tagname<space>tagname
 
+        
 
         */
     }

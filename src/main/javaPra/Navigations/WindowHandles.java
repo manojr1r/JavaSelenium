@@ -1,4 +1,4 @@
-package navigations;
+package Navigations;
 
 import java.util.Iterator;
 import java.util.Set;

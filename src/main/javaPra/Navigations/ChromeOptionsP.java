@@ -1,4 +1,4 @@
-package navigations;
+package Navigations;
 
 import java.util.HashMap;
 import java.util.Map;

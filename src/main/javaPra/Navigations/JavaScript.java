@@ -1,4 +1,4 @@
-package navigations;
+package Navigations;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
