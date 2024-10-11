@@ -21,9 +21,9 @@ public class Xpath {
     Sibiling
     //tag (or) xpath/following-sibling::/tag
     
-child to parent
+child to parent or ancestor
 
-//tag (or) xpath/parent::/tag
+//tag (or) xpath/parent::tag/
 
 parent child reference
 xpath <space> xpath
