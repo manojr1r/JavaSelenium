@@ -1,2 +1,0 @@
-class name = Captial Letter
-method, variable = small Letter 
