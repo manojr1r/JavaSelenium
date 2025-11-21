@@ -1,5 +1,4 @@
 # Maven target directory
-*.class
 target/
 
 # Eclipse files
